@@ -8,7 +8,7 @@ class BotInstance:
     def __init__(self, loop=None):
         self.loop = loop
         self.prefix = "cp2"
-        self.token = "TOKEN"
+        self.token = "925248312024641577"
 
         self.bot = commands.Bot(command_prefix=self.prefix, loop=self.loop, fetch_offline_members=False)
 
